@@ -7,7 +7,7 @@ while implementing a Red-black Jacobi solver in three forms:
  * Xeon Phi coprocessor
  * CUDA GPU
 
-Here is the overall performance I was able to get. The test doing 50 iterations on a 8192x8192 grid of floats, where
+Here is the overall performance I was able to get. The test was to do 50 iterations on a 8192x8192 grid of floats, where
 each iteration is a red phase and a black phase.
 
  * Xeon CPU, single thread: 48954 ms
